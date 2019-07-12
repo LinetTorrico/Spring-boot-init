@@ -1,0 +1,11 @@
+#Spring properties
+spring:
+  aop:
+    auto: true
+    proxy-target-class: false
+    messages:
+      always-use-message-format: false
+      basename: messages
+      mvc:
+        dispatch-trace-request: false
+        dispatch-options-request: true
